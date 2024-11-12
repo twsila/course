@@ -9,6 +9,12 @@ public class DemoLogicalOperator {
     boolean result = x > y && a > b;
     System.out.println(result);
 
+    int c = 5;
+    int d = 6;
+
+    result = c > d;
+    System.out.println(result);
+    System.out.println(!result); //Falase and False is True;
 
   }
 }
