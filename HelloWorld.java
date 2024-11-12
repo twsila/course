@@ -31,5 +31,6 @@ class HelloWorld{
     //default value assign to booleab
     boolean isPass = false;
     System.out.println(isPass);
+    System.out.println("Jana is my lovely dughater");
   }
 }
