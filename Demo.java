@@ -4,5 +4,6 @@ public class Demo {
     int y = 6;
     boolean result = x<y;
     System.out.println(result);
+    System.out.println("I love Maha and I want to .......");
   }
 }
