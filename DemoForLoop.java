@@ -3,5 +3,10 @@ public class DemoForLoop {
         for(int i=0;i <=10;i++){
             System.out.println("Maha is mylove.."+i);
         }
+        System.out.println("********* Decrease *********");
+        for(int i=10;i >=0;i--){
+            System.out.println("Maha is mylove.."+i);
+        }
+        
     }
 }
