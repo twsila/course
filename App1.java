@@ -23,6 +23,7 @@ public class App1 {
     while(++i < --j);
     
     System.out.println(i);
-
-}
+   App2 emp = new App2();
+   emp.getNums();
+} 
 }
