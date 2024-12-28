@@ -7,19 +7,24 @@ abstract class Cars {
     }
 }
 
-class WagonR extends Cars{
+abstract class WagonR extends Cars{
         public void drive(){
             System.out.println("Driving....");
         }
-        public void fly(){
-            System.out.println("Flying....");
-        }
+
 
 }
+class UpdatedWagonR extends WagonR//concrete class
+{
 
+    @Override
+    public void fly() {
+        System.out.println("Flying....");
+    }
+}
 class Demo1 {
     public static void main(String[] args) {
-    Cars obj = new WagonR();
+    Cars obj = new UpdatedWagonR();
     obj.drive();
     obj.playMusic();
     obj.fly();
