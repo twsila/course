@@ -8,7 +8,7 @@ interface X{
 }
 
 interface Y extends X{
-
+    void twsila();
 }
 
 class BB2 implements AInterface2,Y{
@@ -24,6 +24,11 @@ class BB2 implements AInterface2,Y{
     public void run() {
         System.out.println("running....");
     }
+
+    @Override
+    public void twsila() {
+        System.out.println("in twsila....");
+    }
 }
 public class DemoInterface2 {
     public static void main(String[] args) {
@@ -32,5 +37,6 @@ public class DemoInterface2 {
         obj.config();
         obj.show();
         obj.run();
+        obj.twsila();
     }
 }
