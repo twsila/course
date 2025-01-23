@@ -1,4 +1,5 @@
 enum Status{
+<<<<<<< HEAD
   Running,Failed,Pending,Success;
 }
 
@@ -30,3 +31,19 @@ public class DemoEnum {
   }
   
 }
+=======
+    Running,
+    Failed,
+    Pending,
+    Success
+}
+public class DemoEnum {
+    public static void main(String[] args) {
+        int i=5;
+        Status[] ss = Status.values();
+        for(Status s : ss){
+            System.out.println(s+" : "+s.ordinal());
+        }
+    }
+}
+>>>>>>> 3d6177eee5fb65cbf11d768324da0bcd41a54655
